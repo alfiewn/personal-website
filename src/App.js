@@ -8,6 +8,7 @@ import Row from 'react-bootstrap/Row'
 import Typist from 'react-typist';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-typist/dist/Typist.css'
 
 import './App.css';
 
