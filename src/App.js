@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Container className='mt-5'>
+        <Container>
 
           <Row className='justify-content-center'>
             <img src={portrait} className="App-logo" alt="logo" />
