@@ -37,6 +37,9 @@ function App() {
           <SocialButtons />
         </Container>
       </header>
+      <footer className="App-footer">
+        Copyright &#169; {(new Date().getFullYear())}
+      </footer>
     </div>
   );
 }
