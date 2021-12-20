@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-typist/dist/Typist.css'
 
 import './App.css';
+import Experience from './components/Experience';
 
 
 function Portrait(props) {
@@ -35,6 +36,8 @@ function App() {
           <Portrait />
           <Intro />
           <SocialButtons />
+          <hr className='Rule'/>
+          <Experience/>
         </Container>
       </header>
       <footer className="App-footer">
