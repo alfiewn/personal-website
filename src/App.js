@@ -23,7 +23,7 @@ function Portrait(props) {
 function Intro(props) {
   return <Row className='mt-3 justify-content-center'>
     <Typist>
-      Hi, I'm Alfie Newman. Welcome to my personal website!
+      Hi, I'm Alfie Newman.
   </Typist>
   </Row>
 }
