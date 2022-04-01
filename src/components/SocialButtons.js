@@ -1,7 +1,7 @@
 import Row from 'react-bootstrap/Row'
-import githubIcon from './github.svg'
-import linkedinIcon from './linkedin.svg'
-import twitterIcon from './twitter.svg'
+import githubIcon from '../images/github.svg'
+import linkedinIcon from '../images/linkedin.svg'
+import twitterIcon from '../images/twitter.svg'
 
 function SocialButtons(props) {
     return <Row className='mt-3 justify-content-center'>
