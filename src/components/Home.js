@@ -2,7 +2,7 @@ import { Container } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import Typist from 'react-typist';
 import Experience from './Experience';
-import portrait from './portrait.png';
+import portrait from '../images/portrait.png';
 import SocialButtons from './SocialButtons';
 
 function Portrait(props) {
