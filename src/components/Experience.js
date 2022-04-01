@@ -20,7 +20,7 @@ function Experience(props) {
 
         <ExperienceModule
             title="Graduating from University"
-            body="In June 2021 I graduted from The University of Bath with First Class Honours in Computer Science, Bsc."
+            body="In June 2021 I graduated from The University of Bath with First Class Honours in Computer Science, Bsc."
         />
 
         <ExperienceModule
