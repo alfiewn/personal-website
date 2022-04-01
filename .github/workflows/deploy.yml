@@ -1,0 +1,21 @@
+name: deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v3
+
+      - name: setup node
+        uses: actions/setup-node@v3
+
+      - name: deploy to gh pages
+        run: npm deploy
+
