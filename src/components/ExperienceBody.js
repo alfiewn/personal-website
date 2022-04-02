@@ -6,10 +6,6 @@ function ExperienceBody(props){
                 {props.text}
             </p>
         </Col>
-        
-
-    
-
 }
 
 export default ExperienceBody

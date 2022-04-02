@@ -2,7 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from "react-router-dom";
 import 'react-typist/dist/Typist.css';
 import './App.css';
-import Home from './components/Home';
+import About from './components/About';
+import Experience from './components/Experience';
 import NavBar from './components/Navbar';
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <NavBar></NavBar>
       <header className="App-header">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
         </Routes>
       </header>
       <footer className="App-footer">

@@ -12,20 +12,21 @@ function ExperienceModule(props) {
 
 function Experience(props) {
 
-    return <Container fluid>
+    return <Container>
         <ExperienceModule
-            title="Current Work"
-            body="I joined Expedia Group as a Software Development Engineer in August 2021, based out of Angel, London."
+            title="Expedia Group"
+            body="I initially joined Expedia Group as a Software Development Engineer intern in June 2019, completing a year long placement working on SEM tech solutions.
+        I rejoined in August 2021, working in the Fintech space for Expedia Partner Solutions."
         />
-
+        <hr className='Rule' />
         <ExperienceModule
-            title="Graduating from University"
-            body="In June 2021 I graduated from The University of Bath with First Class Honours in Computer Science, Bsc."
+            title="University of Bath"
+            body="In June 2021 I graduated from The University of Bath with First Class Honours in Computer Science, Bsc. I acheived a mark of 82% for my dissertation titled AltArticle: Fighting the Filter Bubble with Alternative Article Recommendations."
         />
-
+        <hr className='Rule' />
         <ExperienceModule
-            title="Final Year Project"
-            body="For my final year project I focused on filter bubbles - exploring the role of recommender systems in their construction and the potential for using deep learning in their destruction."
+            title="Prior to University"
+            body="Experience gained previous to graduation includes teaching English in Bali, Indonesia, and work experience placements at PepsiCo and Grey Matter Ltd."
         />
 
     </Container>
