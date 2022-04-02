@@ -7,7 +7,8 @@ function NavBar(props) {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/">About Me</Nav.Link>
+                    <Nav.Link href="/experience">Experience</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>
