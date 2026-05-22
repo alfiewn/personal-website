@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alfie Newman | Software Engineer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Alfie Newman, a full stack software engineer and Computer Science graduate from the University of Bath, currently working at Expedia Group." />
+  <meta name="keywords" content="Alfie Newman, Software Engineer, Full Stack Developer, Expedia Group, University of Bath, Web Developer Portfolio" />
+  <meta name="author" content="Alfie Newman" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.alfiewn.com/" />
+  <meta property="og:title" content="Alfie Newman | Software Engineer" />
+  <meta property="og:description" content="Portfolio of Alfie Newman, a full stack software engineer and Computer Science graduate from the University of Bath, currently working at Expedia Group." />
+  <meta property="og:image" content="/src/images/portrait.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://www.alfiewn.com/" />
+  <meta property="twitter:title" content="Alfie Newman | Software Engineer" />
+  <meta property="twitter:description" content="Portfolio of Alfie Newman, a full stack software engineer and Computer Science graduate from the University of Bath, currently working at Expedia Group." />
+  <meta property="twitter:image" content="/src/images/portrait.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/logo192.png" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Core CSS -->
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <header class="navbar-header" id="header-nav">
+    <div class="navbar-container">
+      <a href="#" class="navbar-brand" id="brand-link">Alfie Newman</a>
+      <button class="navbar-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav class="navbar-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <button class="nav-link active" id="tab-about" aria-selected="true" role="tab">About Me</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" id="tab-experience" aria-selected="false" role="tab">Experience</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="glass-card">
+      <!-- About Tab Content -->
+      <section id="content-about" class="tab-content active" role="tabpanel" aria-labelledby="tab-about">
+        <div class="portrait-container">
+          <img src="/src/images/portrait.png" alt="Alfie Newman Portrait" class="portrait-image" id="portrait-pic" />
+        </div>
+        
+        <h1 class="intro-title"><span id="typewriter-text"></span><span class="typewriter-cursor">|</span></h1>
+        
+        <div class="social-links-container">
+          <a href="https://github.com/alfiewn" target="_blank" rel="noopener noreferrer" class="social-button" id="link-github" aria-label="GitHub Profile">
+            <img src="/src/images/github.svg" alt="GitHub" class="social-icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/alfie-newman-20598b163/" target="_blank" rel="noopener noreferrer" class="social-button" id="link-linkedin" aria-label="LinkedIn Profile">
+            <img src="/src/images/linkedin.svg" alt="LinkedIn" class="social-icon" />
+          </a>
+          <a href="https://twitter.com/alfiewnewman" target="_blank" rel="noopener noreferrer" class="social-button" id="link-twitter" aria-label="Twitter Profile">
+            <img src="/src/images/twitter.svg" alt="Twitter" class="social-icon" />
+          </a>
+        </div>
+        
+        <hr class="divider-rule" />
+        
+        <div class="description-container">
+          <p class="about-description">
+            A full stack software development engineer and first class Computer Science graduate from the University of Bath, I'm currently working for Expedia Group in London building great experiences for millions of travellers.
+          </p>
+        </div>
+      </section>
+
+      <!-- Experience Tab Content -->
+      <section id="content-experience" class="tab-content" role="tabpanel" aria-labelledby="tab-experience" style="display: none;">
+        <div class="experience-list">
+          <div class="experience-item">
+            <div class="experience-header">
+              <h2 class="experience-title">Expedia Group</h2>
+              <span class="experience-badge">Current</span>
+            </div>
+            <p class="experience-description">
+              I initially joined Expedia Group as a Software Development Engineer intern in June 2019, completing a year long placement working on SEM tech solutions. I rejoined in August 2021, working in the Fintech space for Expedia Partner Solutions.
+            </p>
+          </div>
+          
+          <hr class="divider-rule" />
+          
+          <div class="experience-item">
+            <div class="experience-header">
+              <h2 class="experience-title">University of Bath</h2>
+              <span class="experience-badge">2017 - 2021</span>
+            </div>
+            <p class="experience-description">
+              In June 2021 I graduated from The University of Bath with First Class Honours in Computer Science, Bsc. I achieved a mark of 82% for my dissertation titled <em>AltArticle: Fighting the Filter Bubble with Alternative Article Recommendations</em>.
+            </p>
+          </div>
+          
+          <hr class="divider-rule" />
+          
+          <div class="experience-item">
+            <div class="experience-header">
+              <h2 class="experience-title">Prior to University</h2>
+              <span class="experience-badge">Before 2017</span>
+            </div>
+            <p class="experience-description">
+              Experience gained previous to graduation includes teaching English in Bali, Indonesia, and work experience placements at PepsiCo and Grey Matter Ltd.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="app-footer">
+    <div class="footer-container">
+      <p>Copyright &copy; <span id="copyright-year"></span> Alfie Newman. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Core Script -->
+  <script type="module" src="/src/script.js"></script>
+</body>
+</html>
