@@ -297,8 +297,8 @@ body {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   cursor: pointer;
   transition: var(--transition-fast);
 }
@@ -306,30 +306,45 @@ body {
 .social-icon {
   width: 20px;
   height: 20px;
-  filter: invert(90%) sepia(5%) saturate(300%) hue-rotate(200deg);
+  opacity: 0.8;
   transition: var(--transition-fast);
 }
 
 .social-button:hover {
   transform: translateY(-4px) scale(1.08);
-  background: rgba(6, 182, 212, 0.08);
-  border-color: var(--accent-cyan);
-  box-shadow: 0 8px 24px rgba(6, 182, 212, 0.25);
 }
 
 .social-button:hover .social-icon {
-  filter: invert(65%) sepia(90%) saturate(1200%) hue-rotate(150deg); /* Style SVG matches cyan */
+  opacity: 1;
 }
 
-/* Custom styles for LinkedIn and Twitter specific color matching */
+/* GitHub Specific Hover style */
+.social-button#link-github:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.15);
+}
+
+/* LinkedIn Specific Hover style */
 .social-button#link-linkedin:hover {
-  background: rgba(168, 85, 247, 0.08);
-  border-color: var(--accent-purple);
-  box-shadow: 0 8px 24px rgba(168, 85, 247, 0.25);
+  background: rgba(10, 102, 194, 0.15);
+  border-color: #0a66c2;
+  box-shadow: 0 8px 24px rgba(10, 102, 194, 0.35);
 }
 
 .social-button#link-linkedin:hover .social-icon {
-  filter: invert(50%) sepia(85%) saturate(1500%) hue-rotate(240deg); /* Purple color matching */
+  filter: brightness(0) saturate(100%) invert(32%) sepia(91%) saturate(1900%) hue-rotate(189deg); /* LinkedIn Blue */
+}
+
+/* Twitter Specific Hover style */
+.social-button#link-twitter:hover {
+  background: rgba(29, 155, 240, 0.15);
+  border-color: #1d9bf0;
+  box-shadow: 0 8px 24px rgba(29, 155, 240, 0.35);
+}
+
+.social-button#link-twitter:hover .social-icon {
+  filter: brightness(0) saturate(100%) invert(56%) sepia(89%) saturate(1900%) hue-rotate(179deg); /* Twitter Cyan */
 }
 
 .divider-rule {
