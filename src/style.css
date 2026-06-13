@@ -336,17 +336,6 @@ body {
   filter: brightness(0) saturate(100%) invert(32%) sepia(91%) saturate(1900%) hue-rotate(189deg); /* LinkedIn Blue */
 }
 
-/* Twitter Specific Hover style */
-.social-button#link-twitter:hover {
-  background: rgba(29, 155, 240, 0.15);
-  border-color: #1d9bf0;
-  box-shadow: 0 8px 24px rgba(29, 155, 240, 0.35);
-}
-
-.social-button#link-twitter:hover .social-icon {
-  filter: brightness(0) saturate(100%) invert(56%) sepia(89%) saturate(1900%) hue-rotate(179deg); /* Twitter Cyan */
-}
-
 .divider-rule {
   border: 0;
   height: 1px;
